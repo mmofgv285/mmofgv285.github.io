@@ -3,35 +3,147 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pavithra Wijesinghe</title>
+  <title>Pavithra Wijesinghe | Portfolio</title>
   <style>
     body {
-      margin: 0;
-      padding: 0;
       font-family: Arial, sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
+      margin: 0;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
       background: linear-gradient(135deg, #6a11cb, #2575fc);
       color: white;
       text-align: center;
+      padding: 2rem 1rem;
     }
-    h1 {
-      font-size: 3rem;
+    header h1 {
       margin: 0;
+      font-size: 2.5rem;
     }
-    p {
+    header p {
       font-size: 1.2rem;
-      margin-top: 10px;
-      opacity: 0.9;
+    }
+    nav {
+      background: #333;
+      color: white;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 0.8rem;
+      position: sticky;
+      top: 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    section h2 {
+      border-bottom: 2px solid #2575fc;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+      color: #2575fc;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #333;
+      color: white;
+      margin-top: 2rem;
     }
   </style>
 </head>
 <body>
-  <div>
+
+  <header>
     <h1>Pavithra Wijesinghe</h1>
-    <p>Welcome to my website 🎉</p>
-  </div>
+    <p>Full-Stack Software Engineer | Tech Lead</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Passionate and results-driven Software Engineer with expertise in building scalable web platforms, 
+      leading cross-functional teams, and delivering innovative IT solutions. Adept at designing robust 
+      architectures and mentoring developers to achieve excellence.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><b>Programming:</b> JavaScript, TypeScript, Go, PHP (Laravel), Python</li>
+      <li><b>Frontend:</b> Vue.js, React, HTML5, CSS3, Tailwind, Vuetify</li>
+      <li><b>Backend:</b> Node.js, NestJS, Laravel, Express.js</li>
+      <li><b>Databases:</b> MySQL, PostgreSQL, MongoDB</li>
+      <li><b>Cloud:</b> AWS, GCP, Docker, Kubernetes</li>
+      <li><b>Other:</b> Git, CI/CD, Agile, System Design</li>
+    </ul>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <ul>
+      <li><b>Tech Lead – Web Team</b> | Company Name | 2022 – Present  
+        - Leading end-to-end development of enterprise-level platforms.  
+        - Driving architectural decisions and ensuring scalability.  
+        - Mentoring developers and reviewing code quality.</li>
+      <li><b>Software Engineer</b> | Previous Company | 2019 – 2022  
+        - Developed web applications using Laravel & Vue.js.  
+        - Improved system performance and integrated APIs.</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <p><b>BSc in Computer Science</b> | University Name | 2015 – 2019</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><b>WebGIS-based MIS System</b> – Developed modules for agriculture, marketing, and GIS data visualization.</li>
+      <li><b>POS System</b> – Built a full-featured POS desktop application with Electron.js.</li>
+      <li><b>Electrical Network Mapping</b> – Designed GIS tools for LECO to manage conductor generation and tracing.</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:pavithra@example.com">pavithra@example.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/pavithra" target="_blank">linkedin.com/in/pavithra</a></p>
+    <p>GitHub: <a href="https://github.com/bhagya123" target="_blank">github.com/bhagya123</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Pavithra Wijesinghe | Portfolio Website</p>
+  </footer>
+
 </body>
 </html>
